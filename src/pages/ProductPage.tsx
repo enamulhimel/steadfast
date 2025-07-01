@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-// import { getProductBySlug, getCategories } from '../features/products/productSlice';
 import { RootState } from '../store';
 import Gallery from '../components/Gallery';
 import VariationSelector from '../components/VariationSelector';
